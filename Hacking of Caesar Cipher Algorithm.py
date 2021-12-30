@@ -2,7 +2,7 @@ message = 'GIEWIVrGMTLIVrHIQS' #encrypted message
 LETTERS = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
 
 for key in range(len(LETTERS)):
-   translated = ''
+   translated = ""
    for symbol in message:
       if symbol in LETTERS:
          num = LETTERS.find(symbol)
